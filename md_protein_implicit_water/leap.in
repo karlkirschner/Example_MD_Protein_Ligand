@@ -1,0 +1,21 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff2
+
+set default PBradii mbondi2
+
+LIG = loadmol2 ligand.mol2
+loadamberparams ligand.frcmod
+
+protein-ligand = loadpdb complex.pdb
+
+charge protein-ligand
+addions protein-ligand Cl- 0
+addions protein-ligand Na+ 0
+
+set default PdbWriteCharges on
+
+saveamberparm protein-ligand complex_leap.prmtop complex_leap.inpcrd
+savepdb protein-ligand complex_leap.pdb
+
+quit
