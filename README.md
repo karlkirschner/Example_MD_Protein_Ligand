@@ -19,7 +19,7 @@ Notes:
 
 ###################
 
-I. Clean up PDB
+I. Cleanup the original PDB
 
 	a. pdb4amber -i 1bo4.pdb -o 1bo4_amber.pdb --dry --most-populous --reduce
 			(pdb4amber --help)
