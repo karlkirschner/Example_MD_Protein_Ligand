@@ -57,6 +57,7 @@ II. Get the model ready for running Amber MD simulations
 		tleap -f leap.in
 
 III. Run the calculations
+
 	a. Minimization:
 		sander -O -i min.in -o complex_min.out -p complex_leap.prmtop -c complex_leap.inpcrd -r complex_min.ncrst
 
