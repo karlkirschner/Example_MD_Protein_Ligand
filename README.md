@@ -13,9 +13,16 @@ PDB: 1bo4.pdb (https://www.rcsb.org/structure/1BO4)
 	Aminoglycoside 3-N-acetyltransferase Cell, Cell, 1998, 94, 439-449
 
 Notes:
+
 	1. This workflow is only intended as a teaching tool. A research workflow and input
 		that is intended for publication parameters will likely be different.
 	2. Workflow designed to executed on a bash command line.
+
+Contents:
+
+	1. implicit_water: implicit model using Generalized Born
+	2. explicit_water: explicit model using tip3p
+	3. target_files: reference files for how they should look for after cleaning up and computing bcc charges
 
 ###################
 
