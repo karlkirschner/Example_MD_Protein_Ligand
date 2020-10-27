@@ -71,3 +71,13 @@ III. Run the calculations
 	b. Molecular Dynamics: (a very short heating phase, followed by a constant T simulation)
 		sander -O -i md_1.in -o complex_md_1.out -p complex_leap.prmtop -c complex_min.ncrst -r complex_md.ncrst -x complex_md.nc
  		sander -O -i md_2.in -o complex_md_2.out -p complex_leap.prmtop -c complex_md_1.ncrst -r complex_md_2.ncrst -x complex_md_2.nc
+
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License][cc-by-sa].
+
+[![CC BY-SA 4.0][cc-by-sa-image]][cc-by-sa]
+
+[cc-by-sa]: http://creativecommons.org/licenses/by-sa/4.0/
+[cc-by-sa-image]: https://licensebuttons.net/l/by-sa/4.0/88x31.png
+[cc-by-sa-shield]: https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg
+
