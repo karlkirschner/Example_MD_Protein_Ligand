@@ -10,8 +10,6 @@ loadamberparams ligand.frcmod
 protein-ligand = loadpdb complex.pdb
 
 charge protein-ligand
-addions protein-ligand Cl- 0
-addions protein-ligand Na+ 0
 
 set default PdbWriteCharges on
 

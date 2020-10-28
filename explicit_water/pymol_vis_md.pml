@@ -6,9 +6,9 @@ set orthoscopic, on
 
 cmd.set('bg_rgb',0,'',0)
 
-load complex_tleap.prmtop, trajectory
-load_traj complex_md_1.nc, trajectory, 0, nc
-load_traj complex_md_2.nc, trajectory, 0, nc
+load complex_leap.prmtop, trajectory
+load_traj complex_md_heating.nc, trajectory, 0, nc
+load_traj complex_md_production.nc, trajectory, 0, nc
 preset.publication("trajectory")
 
 
